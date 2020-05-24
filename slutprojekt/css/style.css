@@ -78,10 +78,11 @@ nav ul li ul li a:hover{
 
 main{
   grid-area: main;
-  background-color: grey;
+  background-color: lightgrey;
   display: flex;
   flex-wrap: wrap;
   height: auto;
+  text-decoration: none;
 }
 
 #exempel{
@@ -94,8 +95,71 @@ main{
   margin-left: auto;
   margin-right: auto;
 text-align: center;
+text-decoration: none;
+  font-family: inherit;
+    text-decoration: none;
+  font-size: 10px;
 }
 
+#slidersaker{
+  display: flex;
+    position: relative;
+    width: 700px;
+    text-align: center;
+    /* height: 250px; */
+
+
+}
+
+#slider{
+
+  height: 450px;
+  width:  250px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#knappar{
+  margin-top: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 202px;
+  width: 245px;
+}
+
+#knapp1{
+width: 102px;
+height: 50px;
+text-align: center;
+ display: none;
+background-color: yellow;
+  color: black;
+  border: 2px solid black;
+  border-radius: 20px;
+
+}
+
+#knapp2{
+
+width: 100px;
+height: 50px;
+text-align: center;
+display: none;
+background-color: yellow;
+  color: black;
+  border: 2px solid black;
+border-radius: 20px;
+}
+
+
+
+
+aside{
+  grid-area: aside;
+  background-color: white;
+
+}
 #socialM{
   height: 300px;
   width:250px;;
@@ -106,12 +170,15 @@ text-align: center;
   margin-right: auto;
 text-align: center;
 }
+#brforsocialM{
+  height: 230px;
+  width:250px;;
 
-aside{
-  grid-area: aside;
   background-color: white;
-
-
+  margin: 15px;
+  margin-left: auto;
+  margin-right: auto;
+text-align: center;
 }
 
 footer{
@@ -146,7 +213,7 @@ height: auto;
   }
   }
   @media only screen and (max-width: 600px) {
-#exempel{
+/* #exempel{
   height: auto;
   width: 100%;
 }
@@ -154,4 +221,4 @@ height: auto;
   height: auto;
   width: 100%;
 }
-  }
+  } */
